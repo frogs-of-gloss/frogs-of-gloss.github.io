@@ -53,7 +53,10 @@ p {
   max-width: 500px;
   line-height: 20px;
 }
-.line + .line {
+.line {
+  white-space: pre;
+}
+.line + .line:not(.stanza) {
   margin-top: -20px;
 }
 
