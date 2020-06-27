@@ -31,6 +31,9 @@ h1 a, h1 a:visited {
   color: black;
   text-decoration: none;
 }
+.gloss {
+  margin-right: -3px;
+}
 
 h2, nav + p {
   margin-top: 40px;
@@ -60,25 +63,17 @@ p {
   margin-top: -20px;
 }
 
-.ital, a.current {
+a.current {
   font-style: italic
-}
-.ital span {
-  font-style: normal;
 }
 
 a:visited {
   color: blue;
 }
 
-.gloss {
-  margin-right: -3px;
-}
-
 img {
   max-width: 350px;
 }
-
 
 @media (max-width: 700px) {
   body {
