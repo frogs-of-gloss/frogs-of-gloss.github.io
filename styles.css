@@ -56,6 +56,9 @@ p {
   max-width: 500px;
   line-height: 20px;
 }
+.title {
+  margin-top: 40px;
+}
 .line {
   white-space: pre;
 }
