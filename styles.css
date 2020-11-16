@@ -13,6 +13,7 @@ html {
 body {
   border-left: 1px solid;
   padding-left: 10px;
+  max-width: 510px;
 }
 
 /* spacing large */
@@ -78,10 +79,21 @@ img {
   max-width: 350px;
 }
 
+.flyer {
+  margin: 40px 0 0 170px;
+  display: inline-block;
+  border: 1px solid;
+  padding: 20px 0 0;
+  text-align: center;
+}
+
 @media (max-width: 700px) {
   body {
     border-left: none;
     padding-left: 0;
+  }
+  .flyer {
+    margin-left: calc(50% - 75px);
   }
 }
 
