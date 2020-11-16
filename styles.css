@@ -35,7 +35,7 @@ h1 a, h1 a:visited {
   margin-right: -3px;
 }
 
-h2, nav + p {
+h2, nav + p, .margin-top {
   margin-top: 40px;
 }
 img + h2 {
