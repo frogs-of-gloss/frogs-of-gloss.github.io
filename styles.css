@@ -78,6 +78,9 @@ a:visited {
 img {
   max-width: 350px;
 }
+.light {
+  margin: 0 20px 15px;
+}
 
 .flyer {
   margin: 40px 0 0 170px;
@@ -91,6 +94,9 @@ img {
   body {
     border-left: none;
     padding-left: 0;
+  }
+  .light {
+    max-width: calc(100% - 40px);
   }
   .flyer {
     margin-left: calc(50% - 75px);
