@@ -75,6 +75,10 @@ a:visited {
   color: blue;
 }
 
+.org-links a {
+  display: inline-block;
+}
+
 img {
   max-width: 350px;
 }
