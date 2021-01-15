@@ -59,6 +59,7 @@ p {
 }
 .title {
   margin-top: 30px;
+  text-transform: uppercase;
 }
 .line {
   white-space: pre;
